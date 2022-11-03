@@ -18,7 +18,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void when00and06and08ThenNot() {
+    public void when00and06and08ThenMinus1() {
         Point a = new Point(0, 0);
         Point b = new Point(0, 6);
         Point c = new Point(0, 8);
