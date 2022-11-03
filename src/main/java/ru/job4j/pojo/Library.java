@@ -10,6 +10,7 @@ public class Library {
         for (Book book : lib) {
             System.out.println(book.getName() + " " + book.getPages());
         }
+
         Book k = lib[0];
         lib[0] = lib[3];
         lib[3] = k;
