@@ -19,7 +19,7 @@ public class Library {
         }
         System.out.println("Get book with name \"Clean code\"");
         for (Book book : lib) {
-            if (book.getName().equals("Clean code")) {
+            if ("Clean code".equals(book.getName())) {
                 System.out.println(book.getName() + " " + book.getPages());
             }
         }
