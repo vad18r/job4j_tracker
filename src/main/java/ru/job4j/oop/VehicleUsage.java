@@ -1,6 +1,6 @@
 package ru.job4j.oop;
 
-public class VehicleUsege {
+public class VehicleUsage {
     public static void main(String[] args) {
         Vehicle blueair = new Airplane();
         Vehicle redair = new Airplane();
