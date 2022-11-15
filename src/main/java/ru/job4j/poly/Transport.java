@@ -3,7 +3,7 @@
 public interface Transport {
     void go();
 
-    void passergers(int kol);
+    void passengers(int amount);
 
-    Double toFill(int kol);
+    Double toFill(int amount);
 }
